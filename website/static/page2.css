@@ -1,0 +1,89 @@
+.linkinput{
+    width: 60%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+    margin :50px;
+    margin-left: 250px;
+    height: 400px;
+}
+p{
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 20px 10px 50px;
+
+  }
+  form .user-details .input-box{
+    margin-bottom: 50px;
+    width : calc(100%/2 - 20px);
+  }
+  .user-details .input-box details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .user-details .input-box span{
+    font-size: 18px;
+    font-weight: 500;
+    color : #143e5a
+  }
+  .user-details .input-box input{
+    height:45px;
+    width:85%;
+    outline: none;
+    
+    border-bottom: 1px solid #000;
+    padding-left: 0px;
+    font-size: 16px;
+  }
+
+
+.login-box {
+
+    top: 100px;
+}
+.login-box .contentbox{
+    height: 480px;
+    width: 800px;
+    background-color: white;
+    margin-left: 230px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+.login-box .contentbox .close a{
+    margin-top: 30px;
+    margin-left: 340px;
+    color: black;
+    text-decoration: none; 
+    transform: rotateX(45deg);
+    cursor: pointer;
+    font-size: 30px;
+}
+.formbox img{
+    margin-left: 280px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.formbox h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.formbox h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.formbox a{
+    margin-left: 325px;
+    margin-top: 15px;
+}
+.opt2{
+  display: flex;
+  margin-left: 70px;
+}
